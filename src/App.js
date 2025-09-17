@@ -1076,7 +1076,7 @@ function App() {
                   className="flex flex-col items-center gap-1 px-3 py-3 data-[state=active]:bg-indigo-600 data-[state=active]:text-white rounded-lg transition-all duration-200"
                 >
                   <span className="text-xl">{category.icon}</span>
-                  <span className="text-xs font-medium">{category.name}</span>
+                  {/* <span className="text-xs font-medium">{category.name}</span> */}
                 </TabsTrigger>
               ))}
             </TabsList>
